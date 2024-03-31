@@ -65,10 +65,10 @@ ul {
   display: flex;
   gap: 40px;
 }
-.contact-list li {
+.contact_list li {
   margin-right: 40px;
 }
-.contact-list li:last-child {
+.contact_list li:last-child {
   margin-right: 0;
 }
 .logo-type {
@@ -85,7 +85,7 @@ ul {
 .logotype_2 {
   color: #2e2f42;
 }
-.navigation_1 {
+.firstnavigation {
   display: flex;
   align-items: center;
 }
@@ -137,17 +137,17 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.navigation_2 {
-  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.secondnavigation {
+  display: flex;
   gap: 40px;
 }
-.navigation_2 li {
+.secondnavigation li {
   margin-right: 40px;
 }
-.navigation li:last-child {
+.secondnavigation li:last-child {
   margin-right: 0;
 }
 
