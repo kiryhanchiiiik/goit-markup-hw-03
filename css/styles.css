@@ -28,7 +28,7 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
 }
 .address {
@@ -91,6 +91,8 @@ ul {
 }
 .sectionnumberone {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .zagolovok {
   font-size: 56px;
@@ -98,6 +100,9 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  text-align: center;
+  display: flex;
 }
 .buttonn {
   font-weight: 500;
@@ -106,6 +111,11 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  min-height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .buttonn:hover {
   background-color: #404bbf;
