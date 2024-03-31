@@ -28,11 +28,17 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 auto;
+  display: flex;
 }
 .address {
+  display: flex;
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header1 {
+  border-bottom: 1px solid #e7e9fc;
 }
 .links {
   font-weight: 500;
@@ -64,9 +70,14 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-left: 156px;
+  margin-right: 76px;
 }
 .logotype_2 {
   color: #2e2f42;
+}
+.navigation-2 {
+  display: flex;
+  align-items: center;
 }
 .sectionnumberone {
   background: #2e2f42;
@@ -117,17 +128,12 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.start {
+.navigation-1 {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  margin-left: 347px;
-  margin-right: 832px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .navigation:hover {
   color: #404bbf;
 }
