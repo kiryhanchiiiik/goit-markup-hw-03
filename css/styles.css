@@ -28,7 +28,7 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
 }
 .address {
@@ -98,7 +98,6 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
   max-width: 496px;
   text-align: center;
