@@ -24,12 +24,18 @@ ol {
 img {
   display: block;
 }
+ul {
+  list-style-type: none;
+}
+section {
+  padding-top: 120px;
+  padding-top: 120px;
+}
 .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex;
 }
 .address {
   display: flex;
@@ -46,9 +52,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-ul {
-  list-style-type: none;
 }
 .contacts {
   line-height: 1.5;
@@ -100,8 +103,6 @@ ul {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
-  text-align: center;
-  display: flex;
 }
 .buttonn {
   font-weight: 500;
@@ -110,7 +111,6 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -128,7 +128,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
 .paragraf {
@@ -142,6 +141,17 @@ ul {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.workers {
+  gap: 24px;
+  display: flex;
+}
+.workers li {
+  margin-right: 24px;
+}
+.workers li:last-child {
+  margin-right: 0px;
 }
 .navigation {
   font-weight: 500;
@@ -168,10 +178,6 @@ ul {
 .navigation:focus {
   color: #404bbf;
 }
-.sectionnumbertwo {
-  padding-bottom: 120px;
-  padding-top: 120px;
-}
 .sectionnumberthree {
   background: #f4f4fd;
 }
@@ -184,6 +190,21 @@ ul {
 }
 .list li:last-child {
   margin-right: 0;
+}
+.first {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .names {
   font-weight: 500;
@@ -242,4 +263,6 @@ ul {
 }
 .fon {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
