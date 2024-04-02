@@ -271,9 +271,12 @@ section {
 }
 .fon {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
 }
 .workersstyle {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.workers li:first-child {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
