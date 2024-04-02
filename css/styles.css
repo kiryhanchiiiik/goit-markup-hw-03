@@ -32,6 +32,7 @@ section {
   padding-top: 120px;
 }
 .container {
+  display: flex;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -97,6 +98,10 @@ section {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.sectionnumbertwo {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .zagolovok {
   font-size: 56px;
   line-height: 1.07;
@@ -105,6 +110,7 @@ section {
   max-width: 496px;
 }
 .buttonn {
+  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -180,6 +186,8 @@ section {
 }
 .sectionnumberthree {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .list {
   display: flex;
@@ -191,8 +199,8 @@ section {
 .list li:last-child {
   margin-right: 0;
 }
-.first {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.list li:first-child {
+  flex: 0 0 calc((100% - 3 * 24px) / 4);
 }
 .visually-hidden {
   position: absolute;
@@ -263,6 +271,9 @@ section {
 }
 .fon {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+.workersstyle {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
