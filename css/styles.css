@@ -84,8 +84,6 @@ section {
 .navigation:focus {
   color: #404bbf;
 }
-.address {
-}
 .contact_list {
   display: flex;
   gap: 40px;
@@ -172,14 +170,14 @@ section {
   flex: 0 0 calc((100% - 3 * 24px) / 4);
 }
 .achive {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
-.paragraf {
+.pharagraf {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -203,8 +201,8 @@ section {
   border-radius: 0 0 4px 4px;
 }
 .workers {
-  gap: 24px;
   display: flex;
+  gap: 24px;
 }
 .workers li {
   margin-right: 24px;
@@ -215,6 +213,13 @@ section {
 .workers li:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+.div-workers {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.fon {
+  background-color: #ffffff;
 }
 .names {
   font-weight: 500;
@@ -276,8 +281,5 @@ section {
   color: #f4f4fd;
 }
 .img {
-  background-color: #ffffff;
-}
-.fon {
   background-color: #ffffff;
 }
