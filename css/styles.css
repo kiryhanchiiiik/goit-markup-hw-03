@@ -169,7 +169,7 @@ section {
 .list li:first-child {
   flex: 0 0 calc((100% - 3 * 24px) / 4);
 }
-.list li h3 {
+.list .achive {
   margin-bottom: 8px;
 }
 .achive {
