@@ -167,10 +167,9 @@ section {
 .list li:last-child {
   margin-right: 0;
 }
-.first {
-  width: calc((100% - 72px) / 4);
-}
+
 .achive {
+  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
