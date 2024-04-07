@@ -142,8 +142,7 @@ section {
 }
 
 .section-two {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -161,15 +160,10 @@ section {
   display: flex;
   gap: 24px;
 }
-.list li {
-  margin-right: 24px;
-}
-.list li:last-child {
-  margin-right: 0;
-}
-
-.achive {
+.first {
   width: calc((100% - 72px) / 4);
+}
+.heading {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
