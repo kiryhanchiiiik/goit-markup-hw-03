@@ -209,10 +209,12 @@ section {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.list-item {
-  background-color: #ffffff;
+.list-item:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+.list-item {
+  background-color: #ffffff;
 }
 .names {
   margin-top: 32px;
