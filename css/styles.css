@@ -167,13 +167,11 @@ section {
 .list li:last-child {
   margin-right: 0;
 }
-.list li:first-child {
+.first {
   width: calc((100% - 72px) / 4);
 }
-.list .achive {
-  margin-bottom: 8px;
-}
 .achive {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -215,8 +213,8 @@ section {
   margin-right: 0px;
 }
 .workers li:first-child {
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .div-workers {
   padding-top: 32px;
@@ -224,7 +222,6 @@ section {
 }
 .fon {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
 }
 .names {
   margin-top: 32px;
@@ -239,7 +236,7 @@ section {
 .secondnavigation li {
   margin-right: 40px;
 }
-.secondnavigation li:last-child {
+.secondnavigation:last-child {
   margin-right: 0;
 }
 .section-four {
@@ -270,7 +267,7 @@ section {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.apps-list {
+.portfolio-list:first-child {
   width: calc((100% - 48px) / 3);
 }
 .apps-text-style {
