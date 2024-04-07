@@ -298,7 +298,8 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 8px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .spanlogotype {
   font-weight: 700;
@@ -316,8 +317,4 @@ section {
 }
 .img {
   background-color: #ffffff;
-}
-.footer a {
-  display: inline-block;
-  margin-bottom: 16px;
 }
