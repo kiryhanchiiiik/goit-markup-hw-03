@@ -246,7 +246,7 @@ section {
   column-gap: 24px;
   row-gap: 48px;
 }
-.apps-list {
+.apps-list:first-child {
   width: calc((100% - 48px) / 3);
 }
 .apps {
