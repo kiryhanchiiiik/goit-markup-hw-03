@@ -31,6 +31,9 @@ section {
   padding-top: 120px;
   padding-top: 120px;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .links {
   font-weight: 500;
   font-size: 16px;
@@ -38,15 +41,14 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
 .container {
   display: flex;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
+}
+.container-logo {
+  margin-right: 76px;
 }
 .firstnavigation {
   display: flex;
@@ -69,6 +71,9 @@ section {
 .secondnavigation {
   display: flex;
   gap: 40px;
+}
+.secondnavigation li {
+  padding: 24px 0;
 }
 .navigation {
   font-weight: 500;
@@ -132,7 +137,7 @@ section {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-bottom: 185px;
+  margin-bottom: 188px;
 }
 .buttonn:hover {
   background-color: #404bbf;
@@ -159,6 +164,7 @@ section {
 .list {
   display: flex;
   gap: 24px;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -175,7 +181,6 @@ section {
 }
 .pharagraf {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 .section-three {
@@ -251,6 +256,7 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -258,9 +264,10 @@ section {
 .portfolio-list li {
   width: calc((100% - 48px) / 3);
   margin-right: 24px;
-  margin-bottom: 48px;
 }
-
+.portfolio-list li:nth-child(3n) {
+  margin-right: 0;
+}
 .apps {
   font-weight: 500;
   font-size: 20px;
@@ -268,8 +275,6 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-.apps-list {
 }
 .apps-text-style {
   padding: 32px 16px;
@@ -290,6 +295,9 @@ section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer a {
+  display: inline-block;
+}
 .logo-type-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -298,7 +306,6 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .spanlogotype {
