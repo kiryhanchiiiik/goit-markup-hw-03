@@ -42,10 +42,14 @@ section {
   color: #2e2f42;
 }
 .container {
-  display: flex;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .container-logo {
   margin-right: 76px;
@@ -62,8 +66,9 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-left: 156px;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logotype_2 {
   color: #2e2f42;
@@ -72,9 +77,6 @@ section {
   display: flex;
   gap: 40px;
 }
-.secondnavigation li {
-  padding: 24px 0;
-}
 .navigation {
   font-weight: 500;
   line-height: 1.5;
@@ -82,6 +84,7 @@ section {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .navigation:hover {
   color: #404bbf;
@@ -93,19 +96,14 @@ section {
   display: flex;
   gap: 40px;
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.contact_list li {
-  margin-right: 40px;
-}
-.contact_list li:last-child {
-  margin-right: 0;
 }
 .contacts {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contacts:hover {
   color: #404bbf;
@@ -124,10 +122,13 @@ section {
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
 }
 .buttonn {
   display: block;
+  margin: 0 auto;
   font-weight: 500;
+  margin-top: 48px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
@@ -137,7 +138,6 @@ section {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-bottom: 188px;
 }
 .buttonn:hover {
   background-color: #404bbf;
@@ -181,7 +181,6 @@ section {
 }
 .pharagraf {
   line-height: 1.5;
-  text-align: center;
 }
 .section-three {
   background: #f4f4fd;
@@ -210,15 +209,12 @@ section {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.list-item:first-child {
+.list-item {
+  background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.list-item {
-  background-color: #ffffff;
-}
 .names {
-  margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
   font-weight: 500;
@@ -227,11 +223,8 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.secondnavigation li {
-  margin-right: 40px;
-}
-.secondnavigation:last-child {
-  margin-right: 0;
+.paragraf-names {
+  text-align: center;
 }
 .section-four {
   padding-top: 120px;
@@ -246,7 +239,6 @@ section {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 .apps-list {
   width: calc((100% - 48px) / 3);
@@ -263,7 +255,6 @@ section {
 
 .portfolio-list li {
   width: calc((100% - 48px) / 3);
-  margin-right: 24px;
 }
 .portfolio-list li:nth-child(3n) {
   margin-right: 0;
@@ -280,10 +271,6 @@ section {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  width: 360px;
-  height: 120px;
-  margin-right: 37px;
-  margin-bottom: 48px;
 }
 
 .appsparagraph {
@@ -292,8 +279,7 @@ section {
 }
 .footer {
   background: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .footer a {
   display: inline-block;
